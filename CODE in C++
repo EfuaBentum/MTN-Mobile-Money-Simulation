@@ -1,0 +1,29 @@
+#Include <iostream>
+using namespace std;
+int main() {
+cout<<"enter code"<<endl;
+cin>>code;
+if(code ==170){cout<<"1. Transfer money"<<endl;
+cout<<"2. Allow Cash out"<<endl;
+  cout<<"3. Financial services"<<endl;
+  cout<<"4. My Account"<<endl;}
+else {cout<<"unknown MMI code"<<endl;}
+  cin>>n1;
+  switch(n1){
+case 1:{
+  cout<<"1. Momo user"<<endl;
+  cout<<"2. Non momo user"<<endl;
+  }
+break ;
+  case 2:{cout<<"allow cash out"<<endl;
+  cout<<"1. Yes"<<endl;
+  cout<<"2. No"<<endl;}
+ break;
+case 3:{cout<<"1. Get a loan"<<endl;
+        cout<<"2. Repay loan"<<endl;}
+ break;
+cout<<"2. My approvals"<<endl;}
+break;
+}
+
+
